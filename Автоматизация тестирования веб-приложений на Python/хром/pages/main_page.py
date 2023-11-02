@@ -1,7 +1,9 @@
+"""This module represents main page"""
 from chrome.locators.main_page_locators import MainPageLocators
 from chrome.pages.base_page import BasePage
 
 class MainPage(BasePage):
+     """Main page"""
     locators = MainPageLocators()
 
     def add_post(self, title: str, description: str, content: str):
