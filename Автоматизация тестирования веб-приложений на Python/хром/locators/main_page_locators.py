@@ -3,6 +3,7 @@ from selenium.webdriver.common.by import By
 from chrome.locators.base_locators import BaseLocators
 
 class MainPageLocators(BaseLocators):
+    """Class for Main page locators."""
     ADD_POST_BUTTON = (By.CSS_SELECTOR, '#create-btn')
     INPUT_TITLE = (By.CSS_SELECTOR, '[type="text"]')
     INPUT_DESCRIPTION = (By.CSS_SELECTOR, '.mdc-text-field__input[maxlength="100"]')
